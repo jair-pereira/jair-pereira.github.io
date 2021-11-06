@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jair Pereira Junior"
 title_separator          : "-"
 name                     : &name "Jair Pereira Junior"
-description              : &description "Ph.D. student at University of Tsukuba"
+description              : &description "Ph.D. student at the University of Tsukuba"
 url                      : https://jair-pereira.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jair-pereira.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jair Pereira"
   avatar           : "profile.jpg"
-  bio              : "Ph.D. student at University of Tsukuba, Department of Computer Sciences"
+  bio              : "Ph.D. student at the University of Tsukuba, Department of Computer Sciences"
   location         : "Tsukuba, Japan"
   employer         :
   pubmed           : 
