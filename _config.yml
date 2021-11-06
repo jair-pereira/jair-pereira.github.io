@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jair Pereira Junior"
+title                    : "Jair Pereira"
 title_separator          : "-"
 name                     : &name "Jair Pereira Junior"
 description              : &description "Ph.D. student at the University of Tsukuba"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jair Pereira"
+  name             : "Jair Pereira Junior"
   avatar           : "profile.jpg"
   bio              : "Ph.D. student at the University of Tsukuba, Department of Computer Sciences"
   location         : "Tsukuba, Japan"
