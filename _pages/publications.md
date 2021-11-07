@@ -11,25 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-<hr style="height:5px;border:none;color:#333;background-color:#333;" />
-
-<div class="vl"></div>
-
-
-<h3> 2020 </h3>
-<ul>
-<li><b>Jair Pereira Junior</b>, Claus Aranha, Sakurai Tetsuya, "A Training Difficulty Schedule for Effective Search of Meta-Heuristic Design", 2020 IEEE Congress on Evolutionary Computation (CEC).</li>
-</ul>
-
-<h3> 2019 </h3>
-<ul>
-<li>Anna Bogdanova, <b>Jair Pereira Junior</b>, Claus Aranha, "Franken-Swarm: Grammatical Evolution for the Automatic Generation of Swarm-like Meta-heuristics", In Genetic and Evolutionary Computation Conference Companion (GECCO '19 Companion), http://doi.org/10.1145/3319619.3321902, 2019.7</li>
-</ul>
-<h3> 2018 </h3>
-<ul>
-<li>Claus Aranha, <b>Jair Pereira Junior</b>, Hitoshi Kanoh, "Comparative Study on Discrete SI Approaches to the Graph Coloring Problem", Proceedings of the Annual Genetic and Evolutionary Computation Conference, Proceedings Companion pp.81-82, 2018.7, [Conference Proceedings](https://sig.sigevo.org/index.html/tiki-index.php?page=TOC+GECCO+Posters+2018-1)</li>
-</ul>
-<h3> 2016 </h3>
-<ul>
-<li><b>Junior, Jair</b> & Teixeira, Caio & Rutkowski, Tomasz. (2016). Visual Motion Onset Brain-computer Interface. </li>
-</ul>
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
