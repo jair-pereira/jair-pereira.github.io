@@ -11,6 +11,16 @@ author_profile: true
 
 {% include base_path %}
 
+<h2> 2020 </h2>
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.category == '2020' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2> 2016 </h2>
+{% for post in site.publications reversed %}
+  {% if post.category == '2016' %}
+      {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
