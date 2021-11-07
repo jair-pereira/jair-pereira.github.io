@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jair Pereira Junior"
+title                    : "Jair Pereira"
 title_separator          : "-"
 name                     : &name "Jair Pereira"
 description              : &description "Ph.D. student at the University of Tsukuba"
