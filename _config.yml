@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Jair Pereira Junior"
 title_separator          : "-"
-name                     : &name "Jair Pereira Junior"
+name                     : &name "Jair Pereira"
 description              : &description "Ph.D. student at the University of Tsukuba"
 url                      : https://jair-pereira.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
