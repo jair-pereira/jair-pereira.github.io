@@ -18,6 +18,20 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
+<h2> 2019 </h2>
+{% for post in site.publications reversed %}
+  {% if post.category == '2019' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2> 2018 </h2>
+{% for post in site.publications reversed %}
+  {% if post.category == '2018' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
 <h2> 2016 </h2>
 {% for post in site.publications reversed %}
   {% if post.category == '2016' %}
