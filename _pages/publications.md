@@ -11,9 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>2020</h2>
 {% for post in site.publications reversed %}
-  {% if post.category == '2020' %}
-      {% include archive-single.html %}
-  {% endif %}
+  {% include archive-single.html %}
 {% endfor %}
